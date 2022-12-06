@@ -1,3 +1,5 @@
+github.com/elastic/go-elasticsearch/v7 v7.17.7 h1:pcYNfITNPusl+cLwLN6OLmVT+F73Els0nbaWOmYachs=
+github.com/elastic/go-elasticsearch/v7 v7.17.7/go.mod h1:OJ4wdbtDNk5g503kvlHLyErCgQwwzmDtaFC4XyOxXA4=
 github.com/golang/protobuf v1.5.0/go.mod h1:FsONVRAS9T7sI+LIUmWTfcYkHO4aIWwzhcaSAoJOfIk=
 github.com/golang/protobuf v1.5.2 h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=
 github.com/golang/protobuf v1.5.2/go.mod h1:XVQd3VNwM+JqD3oG2Ue2ip4fOMUkwXdXDdiuN0vRsmY=

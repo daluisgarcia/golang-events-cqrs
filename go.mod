@@ -8,6 +8,7 @@ require (
 )
 
 require (
+	github.com/elastic/go-elasticsearch/v7 v7.17.7 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/nats-io/nats-server/v2 v2.9.8 // indirect
 	github.com/nats-io/nkeys v0.3.0 // indirect
