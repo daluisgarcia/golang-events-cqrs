@@ -32,7 +32,7 @@ func (r *ElasticSearchRepository) Close() {
 	// There is not a way to implement this metohd with Elastic Search
 }
 
-func (r *ElasticSearchRepository) IndexFeed(ctx context.Context, feed *models.Feed) error {
+func (r *ElasticSearchRepository) IndexFeed(ctx context.Context, feed models.Feed) error {
 	body, _ := json.Marshal(feed)
 
 	_, err := r.client.Index(
