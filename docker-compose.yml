@@ -59,7 +59,7 @@ services:
       NATS_ADDRESS: "nats:4222"
 
   nginx:
-    image: "./nginx"
+    build: "./nginx"
     ports:
       - "8080:80"
     depends_on:

@@ -10,7 +10,7 @@ RUN apk --no-cache add ca-certificates && update-ca-certificates
 WORKDIR /src
 
 # Installing dependencies
-COPY ./go.mod ./go.mod ./
+COPY ./go.mod ./go.sum ./
 RUN go mod download
 
 # Copiying source file folders
