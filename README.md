@@ -22,3 +22,5 @@ After executing the previous command you will have the services running in ```ht
 - **List feeds**: ```GET http://localhost:8080/feeds```
 - **Search feeds**: ```GET http://localhost:8080/feeds/search?query=```
 - **Create feed**: ```POST http://localhost:8080/feeds```
+
+Also there is an endpoint to connect by websocket to the Pusher service. This endpoint is ```ws://localhost:8080/ws```. This endpoint is used by the Pusher service to send notifications to the clients.
